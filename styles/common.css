@@ -1,0 +1,28 @@
+#myHeader{
+    font-family: 'Montez' ,cursive;
+    color: blue;
+}
+#sub{
+    font-family: 'Montez', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    height: 40px;
+   
+    
+}
+#mySign button{
+   background-color: blue;
+   color: white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 100px;
+   height: 40px;
+}
+
+.mainContainer{
+    
+    background-color: #e2e1e1;
+}
