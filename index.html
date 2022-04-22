@@ -118,10 +118,39 @@
         
 
         <div class="postbtn">
-          <a href="bloglist.html" target=" ">
+          <a href="/html/bloglist.html" target=" ">
             <button  type="button" >All Posts</button>
           </a>
-          <button  type="button" >Create Posts</button>
+          <!-- Button trigger modal -->
+         
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Create post
+             </button>
+             
+             <!-- Modal -->
+             <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Pen your post</h5>
+                     <i class="fa fa-times" id="crossSymbol" aria-hidden="true" data-bs-dismiss="modal" ></i>
+                   </div>
+                   <div class="modal-body" >
+                     <label>Title</label> <br>
+                     <input type="text" placeholder="Enter title of your post" id="titlepost"><br>
+                    <label>Contents</label><br>
+                    <textarea name="paragraph_text" cols="50" rows="10" placeholder="Enter the contents of your post" id="inputContent"></textarea>
+                   </div>
+                   <div class="modal-footer2" id="btnsuccess">
+                    <button type="button" class="btn btn-success" id="successbtn" style="background-color: green;">Create</button>
+                     
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+         
+
     
         </div>
           
