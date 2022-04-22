@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
+    width: 1290px;
 }
 #image1{
     width: 1700px;
@@ -90,6 +90,23 @@ label{
     margin-right: 10px;
 
 }
+#inputContent{
+    width: 100%;
+    background-color: #e2e1e1;
+    margin-top: 10px;
+}
+#successbtn{
+    background-color: green;
+}
+#btnsuccess{
+   display: flex;
+   justify-content: center;
+  
+}
+#titlepost{
+    margin-top: 10px;
+}
+
 /*
 .container {
     display: flex;
